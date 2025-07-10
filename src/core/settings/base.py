@@ -43,11 +43,11 @@ class Settings(BaseSettings):
 
     PROJECT: ProjectSettings = Field(
         default=ProjectSettings(
-            NAME="Api",
-            DESCRIPTION="API implemented with FastAPI",
+            NAME="qr-generator-api",
+            DESCRIPTION="Simple API for QR generator.",
             VERSION="1.0.0",
-            CODE="api-001",
-            AUTHORS="R2"
+            CODE="api-006",
+            AUTHORS="Ruy, Roni"
         ),
         validate_default=True
     )
